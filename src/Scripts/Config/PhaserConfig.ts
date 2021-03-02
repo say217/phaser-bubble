@@ -1,5 +1,4 @@
 import PreloadScene from "../Scenes/PreloadScene";
-import TitleScene from "../Scenes/TitleScene";
 import GameScene from "../Scenes/GameScene";
 import { getResolution } from "../Utils/Util";
 
@@ -22,5 +21,5 @@ export const config: PhaserConfig = {
     },
   },
   backgroundColor: "#5DACD8",
-  scene: [PreloadScene, TitleScene, GameScene],
+  scene: [PreloadScene, GameScene],
 };

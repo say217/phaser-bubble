@@ -3,8 +3,8 @@ export const getResolution = () => {
     if(isMobile == -1){
         isMobile = navigator.userAgent.indexOf("Tablet");
     }
-    let w = 1280;
-    let h = 720;
+    let w = 720;
+    let h = 1280;
     if(isMobile !== -1){
         w = window.innerWidth;
         h = window.innerHeight;
